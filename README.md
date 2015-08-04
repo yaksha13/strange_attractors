@@ -1,4 +1,4 @@
-# Strange Attractors - An Math Art Project
+# Strange Attractors - A Math Art Project
 
 A Threejs implementation of Strange Attractors  
 Inspired by the work of Chaotic Atmospheres: [http://chaoticatmospheres.deviantart.com/](http://chaoticatmospheres.deviantart.com/)  
