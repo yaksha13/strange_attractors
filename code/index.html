@@ -1,10 +1,56 @@
-<!DOCTYPE html>
+<!doctype html public "awesomeniz">
 <html>
-<head>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./three.js"></script>
-</head>
-<body>
-    <script src="./main.js"></script>
-</body>
+	<head>
+		<meta charset="utf-8" />
+		<title>Strange Attractor</title>
+    <link rel="stylesheet" href="style.css" type="text/css" >
+	</head>
+	<body>
+		<div id="modal">
+			<div id="intro">
+				<p>
+					“It has been said that something as small as the flutter of a butterfly’s wings can ultimately cause a typhoon halfway around the world” - The Butterfly Effect
+				</p>
+				<p>
+					Strange Attractors are amazing structures in Chaos Theory. They almost seem to bring science and art together. This is our attempt at visualizing their strange "attraction"!
+				</p>
+				<p>
+					<i>Note: This is an alpha build so please bear with us if something does not work! We plan to add many more attractors to the current list</i>
+				</p>
+
+
+				<div id="close_modal">Show me!</div>
+			</div>
+		</div>
+		<div id="overlay">
+			<div id="header">Strange Attraction - by Akshay Rao and Ronak Bhandari</div>
+			<div id="my-gui-container"></div>
+			<div style="clear:both"></div>
+			<div id="help">
+				<strong>Selecting and Modifying the attractors</strong><br/>
+				<ol>
+					<li>Choose an "attractor" from the dropdown menu above (top right)</li>
+					<li>Play with the parameters (sliders) to see interesting changes in the structure of the attractor</li>
+					<li>Press GO!</li>
+				</ol>
+				<strong>Manipulating the structure</strong><br/>
+				<ol>
+					<li>Click and Drag the object to change the perspective of the attractor</li>
+					<!-- <li>Use scroll to zoom in or zoom out of the structure</li> -->
+				</ol>
+			</div>
+			<div style="clear:both"></div>
+			<div id="footer">Inspired by <a href="http://chaoticatmospheres.deviantart.com/gallery/" target="_blank">Chaotic Atmospheres</a> and <a href="https://aerotwist.com/" target="_blank">Aerotwist</a></div>
+		</div>
+		<div id="wrapper">
+			<div id="container" class="light" style="bottom: 0"></div>
+		</div>
+
+    <script src="jquery.min.js"></script>
+    <script src="dat.gui.min.js"></script>
+    <script src="rAF.js"></script>
+	<script src="a3.min.js"></script>
+    <script src="sample.js"></script>
+
+	</body>
 </html>
